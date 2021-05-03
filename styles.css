@@ -18,3 +18,36 @@
   font-weight: 700;
   font-style: bold;
 }
+
+/* Scrolling Wrapper */
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 0 0 auto;
+  min-width: 100vw;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+}
+
+#card1 {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+#card2 {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+#card3 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
