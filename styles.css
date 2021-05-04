@@ -35,6 +35,9 @@
   height: 100vh;
   display: flex;
   overflow: hidden;
+  background-position: center center;
+  scroll-snap-type: start;
+  background-size: cover;
 }
 
 /* Intro Slide */
@@ -144,6 +147,7 @@ h2 {
 body {
   margin: 0;
   scroll-snap-type: x mandatory;
+  cursor: url("./frog-graphics/fly.gif");
 }
 
 img {
@@ -159,7 +163,7 @@ i {
 }
 
 .creature {
-  width: 25%;
+  width: 30vw;
   align-items: center;
   display: flex;
 }
@@ -168,7 +172,8 @@ nav {
   display: flex;
   align-items: center;
   background-color: transparent;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
 }
 
 /* Desktop Styles */
