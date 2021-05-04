@@ -39,14 +39,14 @@
   background-position: center center;
   scroll-snap-type: start;
   background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
+  align-items: center;
 }
 
 /* Intro Slide */
 #card1 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -56,8 +56,6 @@
 #card2 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -67,8 +65,6 @@
 #card3 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/background-pond.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -78,8 +74,6 @@
 #card4 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/background-pond.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -89,8 +83,6 @@
 #card5 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -100,8 +92,6 @@
 #card6 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -111,8 +101,6 @@
 #card7 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
@@ -196,9 +184,11 @@ nav {
 }
 
 .text-div {
-  width: 90vw;
-  margin: 1em;
+  width: 80vw;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: justify;
+  align-items: center;
 }
 
 .grid-frog-chart {
