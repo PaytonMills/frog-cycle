@@ -109,6 +109,7 @@
   background-size: cover;
   text-align: center;
   justify-content: space-around;
+  font-size: 0.5em;
 }
 
 /* Text Stylign */
@@ -126,7 +127,7 @@ p {
   font-family: ivystyle-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #9dae6f;
+  color: #d7f9f1;
   font-size: 1em;
   margin-top: 1em;
 }
@@ -142,6 +143,7 @@ h2 {
 
 .prompt {
   align-items: center;
+  color: #9dae6f;
 }
 
 /* Aesthethics Styling */
@@ -171,19 +173,23 @@ i {
 }
 
 nav {
-  display: inline;
+  display: grid;
   background-color: transparent;
-  width: 100vw;
+  width: 100%;
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-rows: 1fr;
+  align-items: center;
 }
 
 .text-div {
   width: 95vw;
-  margin: 2em;
-  text-align: left;
+  margin: 1em;
+  text-align: justify;
 }
 
 .grid-frog-chart {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 80vw;
 }
 
 li {
@@ -254,4 +260,14 @@ button {
 
 /* Desktop Styles */
 @media only screen and (min-width: 768px) {
+}
+
+#card7 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./frog-graphics/lilypad-background.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 1em;
 }
