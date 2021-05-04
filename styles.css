@@ -171,17 +171,19 @@ i {
 }
 
 nav {
-  display: flex;
-  align-items: center;
+  display: inline;
   background-color: transparent;
   width: 100vw;
-  overflow: hidden;
 }
 
 .text-div {
   width: 95vw;
   margin: 2em;
   text-align: left;
+}
+
+.grid-frog-chart {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Styles for Modal and btn */
@@ -192,6 +194,13 @@ button {
   font-style: normal;
   color: #d7f9f1;
   font-size: 2em;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: url("./frog-graphics/fly.gif");
+  display: flex;
+  align-items: center;
+  max-width: 4em;
 }
 
 .modal {
