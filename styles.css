@@ -119,6 +119,7 @@ h1 {
   font-style: bold;
   font-size: 2em;
   color: #d7f9f1;
+  margin: 1em 0 1em 0;
 }
 
 p {
@@ -127,6 +128,7 @@ p {
   font-style: normal;
   color: #9dae6f;
   font-size: 1em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -176,6 +178,12 @@ nav {
   overflow: hidden;
 }
 
+.text-div {
+  width: 95vw;
+  margin: 2em;
+  text-align: left;
+}
+
 /* Styles for Modal and btn */
 
 button {
@@ -184,44 +192,44 @@ button {
   font-style: normal;
   color: #d7f9f1;
   font-size: 2em;
+}
 
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover, .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
 
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Desktop Styles */
 @media only screen and (min-width: 768px) {
