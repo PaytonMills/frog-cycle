@@ -147,7 +147,7 @@ h2 {
 body {
   margin: 0;
   scroll-snap-type: x mandatory;
-  cursor: url("./frog-graphics/fly.gif");
+  cursor: url("./frog-graphics/fly.gif"), auto;
 }
 
 img {
@@ -165,7 +165,7 @@ i {
 .creature {
   width: 30vw;
   align-items: center;
-  display: flex;
+  display: inline-block;
 }
 
 nav {
