@@ -25,6 +25,7 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   scroll-behavior: smooth;
+  flex-direction: row;
 }
 
 /* Container for each panel */
@@ -32,7 +33,7 @@
   flex: 0 0 auto;
   min-width: 100vw;
   height: 100vh;
-  display: grid;
+  display: flex;
   overflow: hidden;
 }
 
@@ -42,54 +43,69 @@
   flex-direction: column;
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Egg Phase Slide */
 #card2 {
-  background-color: orange;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/lilypad-background.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Tadpole Phase Slide */
 #card3 {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/background-pond.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Tadpole with Legs Phase Slide */
 #card4 {
-  background-color: green;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/background-pond.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Froglet Phase Slide */
 #card5 {
-  background-color: blue;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/lilypad-background.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Frog Phase Slide */
 #card6 {
-  background-color: purple;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/lilypad-background.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Conclusion Slide */
 #card7 {
-  background-color: pink;
   display: flex;
   flex-direction: column;
   background-image: url(./frog-graphics/lilypad-background.png);
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /* Text Stylign */
@@ -107,6 +123,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #9dae6f;
+  font-size: 1em;
 }
 
 h2 {
@@ -126,6 +143,7 @@ h2 {
 
 body {
   margin: 0;
+  scroll-snap-type: x mandatory;
 }
 
 img {
@@ -136,12 +154,21 @@ i {
   color: white;
   font-size: 2em;
   margin: 10px;
+  text-align: left;
+  display: flex;
 }
 
 .creature {
   width: 25%;
   align-items: center;
-  display: block;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
 }
 
 /* Desktop Styles */
