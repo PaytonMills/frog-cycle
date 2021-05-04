@@ -186,6 +186,18 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+li {
+  font-family: ivystyle-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #9dae6f;
+  font-size: 1em;
+  margin-top: 1em;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: justify;
+}
+
 /* Styles for Modal and btn */
 
 button {
@@ -218,16 +230,16 @@ button {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #546c23;
+  border-radius: 25px;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: #9dae6f;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -235,7 +247,7 @@ button {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #d7f9f1;
   text-decoration: none;
   cursor: pointer;
 }
