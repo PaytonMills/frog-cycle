@@ -1,4 +1,4 @@
-/* Adobe Fonts */
+/* Adobe Fonts -----------------------*/
 @import url("https://use.typekit.net/zax1juw.css");
 
 .carlmarx {
@@ -19,7 +19,7 @@
   font-style: bold;
 }
 
-/* Scrolling Wrapper */
+/* Scrolling Wrapper -------------------*/
 .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -112,7 +112,7 @@
   font-size: 0.5em;
 }
 
-/* Text Stylign */
+/* Text Styling --------------------*/
 
 h1 {
   font-family: carlmarx, sans-serif;
@@ -146,12 +146,21 @@ h2 {
   color: #9dae6f;
 }
 
-/* Aesthethics Styling */
+/* Aesthethics Styling ------------*/
+
+/* Cursor Fly */
+html {
+  cursor: url("./frog-graphics/fly-cursor-small.gif"), auto;
+}
+
+a {
+  cursor: url("./frog-graphics/fly-cursor-small.gif"), auto;
+}
+/* End Cursor */
 
 body {
   margin: 0;
   scroll-snap-type: x mandatory;
-  cursor: url("./frog-graphics/fly.gif"), auto;
 }
 
 img {
@@ -204,7 +213,7 @@ li {
   text-align: justify;
 }
 
-/* Styles for Modal and btn */
+/* Styles for Modal and btn ------------*/
 
 button {
   font-family: ivystyle-sans, sans-serif;
@@ -215,7 +224,6 @@ button {
   border: none;
   background-color: transparent;
   text-decoration: none;
-  cursor: url("./frog-graphics/fly.gif");
   display: flex;
   align-items: center;
   max-width: 4em;
@@ -258,7 +266,7 @@ button {
   cursor: pointer;
 }
 
-/* Desktop Styles */
+/* Desktop Styles --------------*/
 @media only screen and (min-width: 768px) {
 }
 
