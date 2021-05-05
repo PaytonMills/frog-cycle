@@ -1,7 +1,7 @@
 // Make the modal -- Code from W3 Schools "How to Create a Modal Box"
 var modal = document.getElementById("src-modal");
 
-// Get the button that opens the modal
+//Get the button that opens the modal
 var btn = document.getElementById("src-btn");
 
 // Get the <span> element that closes the modal
