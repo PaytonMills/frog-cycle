@@ -38,8 +38,6 @@
   overflow: hidden;
   background-position: center center;
   scroll-snap-type: start;
-  background-size: cover;
-  background-image: url(./frog-graphics/background-pond.png);
   align-items: center;
 }
 
@@ -50,6 +48,8 @@
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Egg Phase Slide */
@@ -59,6 +59,8 @@
   text-align: center;
   justify-content: space-around;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Tadpole Phase Slide */
@@ -66,8 +68,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Tadpole with Legs Phase Slide */
@@ -75,8 +79,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Froglet Phase Slide */
@@ -84,8 +90,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Frog Phase Slide */
@@ -93,8 +101,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Conclusion Slide */
@@ -102,8 +112,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Text Styling --------------------*/
@@ -144,6 +156,8 @@ h2 {
 /* Cursor Fly */
 html {
   cursor: url("./frog-graphics/fly-cursor-small.gif"), auto;
+  scroll-behavior: smooth;
+  overflow-y: unset;
 }
 
 a {
@@ -181,12 +195,12 @@ nav {
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
+  top: 0;
 }
 
 .text-div {
-  width: 80vw;
-  margin-left: 1em;
-  margin-right: 1em;
+  width: 50ch;
+  margin: 0 auto;
   text-align: justify;
   align-items: center;
 }
@@ -206,6 +220,10 @@ li {
   list-style-type: none;
   text-decoration: none;
   text-align: justify;
+}
+
+* {
+  overflow-y: hidden;
 }
 
 /* Styles for Modal and btn ------------*/
@@ -263,6 +281,10 @@ button {
 
 /* Desktop Styles --------------*/
 @media only screen and (min-width: 768px) {
+  .text-div {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
 }
 
 /* Image Phasing ----------*/
