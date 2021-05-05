@@ -1,134 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Frog Cycle</title>
-    <link href="./styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/zax1juw.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/zax1juw.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <script src="./java/sources-modal.js" defer></script>
-</head>
-<body class="scrolling-wrapper">
-   
+  </head>
+  <body class="scrolling-wrapper">
     <div class="card" id="card1">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Life Cycle of a Frog</h2>
-        </nav>
-        <a href="#card2"><img src="./frog-graphics/frog-face-right-graphic.png" alt="frog graphic facing right" class="creature"></a>
-        <div>
-            <p class="prompt">Click to Begin the Cycle</p>
-        </div>
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Life Cycle of a Frog</h2>
+      </nav>
+      <a href="#card2"
+        ><img
+          src="./frog-graphics/frog-face-right-graphic.png"
+          alt="frog graphic facing right"
+          class="creature"
+      /></a>
+      <div>
+        <p class="prompt">Click to Begin the Cycle</p>
+      </div>
     </div>
-    
+
     <div class="card" id="card2">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Egg Phase</h2>
-        </nav>
-        <div class="text-div">
-            <p>A frog begins life as a fertilized egg. A female frog lays a lot of eggs at one time in a pond to increase the rate of survival. One female frog can lay thousands of eggs at once. The eggs float on water in a jelly mass or cluster.        </p>
-        </div>
-        <div id="cf">
-            <a href="#card3"><img src="./frog-graphics/eggs-graphic.png" alt="frogs kissing" class="creature bottom"></a>
-            <a href="#card3"><img src="./frog-graphics/kissing-frog-duo.png" alt="frog eggs" class="creature top"></a>
-        </div>
-        <p class="prompt">Hover to Grow, Click to Advance</p>
-
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Egg Phase</h2>
+      </nav>
+      <div class="text-div">
+        <p>
+          A frog begins life as a fertilized egg. A female frog lays a lot of
+          eggs at one time in a pond to increase the rate of survival. One
+          female frog can lay thousands of eggs at once. The eggs float on water
+          in a jelly mass or cluster.
+        </p>
+      </div>
+      <div id="cf">
+        <a href="#card3"
+          ><img
+            src="./frog-graphics/eggs-graphic.png"
+            alt="frogs kissing"
+            class="creature bottom"
+        /></a>
+        <a href="#card3"
+          ><img
+            src="./frog-graphics/kissing-frog-duo.png"
+            alt="frog eggs"
+            class="creature top"
+        /></a>
+      </div>
+      <p class="prompt">Hover to Grow, Click to Advance</p>
     </div>
-   
+
     <div class="card" id="card3">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Tadpole Phase</h2>
-        </nav>
-       <div class="text-div">
-            <p>When the tadpole hatches, it looks more like a fish than a frog. When tadpoles are first born they are little more than a mouth, gills and a tail. Inside their gut is the remainder of the jelly from their egg and this sustains them for the first few days of life. After about a week the tadpole will be strong enough to swim and search for food, which for the next few days of life, consists entirely of algae.</p>
-        </div>
-<!--Problems :) -->
-        <div id="cf">
-            <img class="bottom" src="./frog-graphics/tadpole-graphic-light.png">
-            <img class="top" src="./frog-graphics/eggs-graphic.png">
-        </div>
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Tadpole Phase</h2>
+      </nav>
+      <div class="text-div">
+        <p>
+          When the tadpole hatches, it looks more like a fish than a frog. When
+          tadpoles are first born they are little more than a mouth, gills and a
+          tail. Inside their gut is the remainder of the jelly from their egg
+          and this sustains them for the first few days of life. After about a
+          week the tadpole will be strong enough to swim and search for food,
+          which for the next few days of life, consists entirely of algae.
+        </p>
+      </div>
+      <!--Problems :) -->
+      <div id="cf">
+        <img class="bottom" src="./frog-graphics/tadpole-graphic-light.png" />
+        <img class="top" src="./frog-graphics/eggs-graphic.png" />
+      </div>
 
-            <a href="#card4"><p class="prompt">Hover to Grow, Click to Advance</p></a>
-
-
-
+      <a href="#card4"><p class="prompt">Hover to Grow, Click to Advance</p></a>
     </div>
-    
+
     <div class="card" id="card4">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Tadpole with Legs Phase</h2>
-        </nav>
-        <div class="text-div">
-            <p>During this time, the tadpole starts to develop lungs so it will be able to breathe out of the water when it becomes a frog.</p>
-            <p>The tadpole also starts to grow two hind legs. Now it can leap around instead of only swimming. Although the tadpole is starting to look a little more like a frog, it still has a very long tail!</p>
-        </div>
-        <a href="#card5"><img src="./frog-graphics/leggy-graphic-light.png" alt="tadpole with legs" class="creature"></a>
-        <p class="prompt">Hover to Grow, Click to Advance</p>
-
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Tadpole with Legs Phase</h2>
+      </nav>
+      <div class="text-div">
+        <p>
+          During this time, the tadpole starts to develop lungs so it will be
+          able to breathe out of the water when it becomes a frog.
+        </p>
+        <p>
+          The tadpole also starts to grow two hind legs. Now it can leap around
+          instead of only swimming. Although the tadpole is starting to look a
+          little more like a frog, it still has a very long tail!
+        </p>
+      </div>
+      <a href="#card5"
+        ><img
+          src="./frog-graphics/leggy-graphic-light.png"
+          alt="tadpole with legs"
+          class="creature"
+      /></a>
+      <p class="prompt">Hover to Grow, Click to Advance</p>
     </div>
-   
+
     <div class="card" id="card5">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Froglet Phase</h2>
-        </nav>
-        <div class="text-div">
-            <p>Just before becoming a frog, the tadpole's gills disappear. The tadpole grows two front legs and its long tail becomes shorter and shorter. The tadpole uses the nutrients stored in its tail as food, so until its tail is completely gone, it doesn’t need anything else to eat! Then just a little stub of its tail is left, and the tadpole is a young frog. It hops right out of the water and onto dry land for the first time! The frog is still very small.</p>
-        </div>
-        <a href="#card6"><img src="./frog-graphics/stubby-graphic-one.png" alt="froglet" class="creature"></a>
-        <p class="prompt">Hover to Grow, Click to Advance</p>
-
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Froglet Phase</h2>
+      </nav>
+      <div class="text-div">
+        <p>
+          Just before becoming a frog, the tadpole's gills disappear. The
+          tadpole grows two front legs and its long tail becomes shorter and
+          shorter. The tadpole uses the nutrients stored in its tail as food, so
+          until its tail is completely gone, it doesn’t need anything else to
+          eat! Then just a little stub of its tail is left, and the tadpole is a
+          young frog. It hops right out of the water and onto dry land for the
+          first time! The frog is still very small.
+        </p>
+      </div>
+      <a href="#card6"
+        ><img
+          src="./frog-graphics/stubby-graphic-one.png"
+          alt="froglet"
+          class="creature"
+      /></a>
+      <p class="prompt">Hover to Grow, Click to Advance</p>
     </div>
-   
+
     <div class="card" id="card6">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Mature Frog</h2>
-        </nav>
-        <div class="text-div">
-            <p>The frog’s tail will eventually disappear completely and it will start to eat insects instead of plants from the water. The young frog will grow for about 2-4 years to become an adult. The adult frogs then lay their eggs and more tadpoles hatch and begin the cycle again!</p>
-        </div>
-        <a href="#card7"><img src="./frog-graphics/frog-facing-right.png" alt="frog" class="creature"></a>
-        <p class="prompt">Click to Advance</p>
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Mature Frog</h2>
+      </nav>
+      <div class="text-div">
+        <p>
+          The frog’s tail will eventually disappear completely and it will start
+          to eat insects instead of plants from the water. The young frog will
+          grow for about 2-4 years to become an adult. The adult frogs then lay
+          their eggs and more tadpoles hatch and begin the cycle again!
+        </p>
+      </div>
+      <a href="#card7"
+        ><img
+          src="./frog-graphics/frog-facing-right.png"
+          alt="frog"
+          class="creature"
+      /></a>
+      <p class="prompt">Click to Advance</p>
+    </div>
 
-    </div>
-   
     <div class="card" id="card7">
-        <nav>
-            <a href="#card1" class="display:grid"><i class="fas fa-redo-alt"></i></a>
-            <h2>Life Cycle of a Frog</h2>
-            <button id="src-btn">Sources</button>
+      <nav>
+        <a href="#card1" class="display:grid"
+          ><i class="fas fa-redo-alt"></i
+        ></a>
+        <h2>Life Cycle of a Frog</h2>
+        <button id="src-btn">Sources</button>
         <!-- The Modal -->
-            <div id="src-modal" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <ul>
-                        <li>https://learning-center.homesciencetools.com/article/life-cycle-frog/ 
-                        </li>
-                        <li>https://people.wou.edu/~enirei08/frog.html</li>
-                        <li>https://www.saga.co.uk/magazine/home-garden/gardening/wildlife/amphibians/the-tadpole</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="text-div">
-            <p>Frogs release a large number of eggs to make the chance of producing offspring greater. Fertilization happens outside of the female frog. That means that the chance of the eggs surviving is small. Other animals can eat the eggs or when the eggs aren’t getting any water they will dry up and die. By laying lots of eggs, it’s more likely that some will survive.</p>
-            <p>Predators, including fish and other frogs, pose a threat to the surivial of frog eggs. Many creatures eat frog eggs. Another threat is the sun, as frog eggs die if they dry up. Frog eggs do not have a protective outer shell like bird eggs.</p>
-            <p>The survival rate of frog eggs that reach full maturity is very low. Female frogs lay between 2,000 and 10,000 eggs at one time, depending on the species of frog and environment. Only about 5 of these eggs will make it to full maturity in hopes of laying eggs themselves.</p>
+        <div id="src-modal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <ul>
+              <li>
+                https://learning-center.homesciencetools.com/article/life-cycle-frog/
+              </li>
+              <li>https://people.wou.edu/~enirei08/frog.html</li>
+              <li>
+                https://www.saga.co.uk/magazine/home-garden/gardening/wildlife/amphibians/the-tadpole
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="grid-frog-chart" style="display: grid;">
-            <img src="./frog-graphics/frog-kissing-right-graphic.png" alt="frog kissing" class="creature">
-            <img src="./frog-graphics//frog-chart.png" alt="a chart showing the population distribution of frogs by age" style="">
-            <img src="./frog-graphics/frog-kissing-left-graphic.png" alt="frog kissing" class="creature">
-        </div>
-        <a href="#card1" style="text-decoration: none;"><p class="prompt">Click Here to Restart the Cycle</p></a>
+      </nav>
+      <div class="text-div">
+        <p>
+          Frogs release a large number of eggs to make the chance of producing
+          offspring greater. Fertilization happens outside of the female frog.
+          That means that the chance of the eggs surviving is small. Other
+          animals can eat the eggs or when the eggs aren’t getting any water
+          they will dry up and die. By laying lots of eggs, it’s more likely
+          that some will survive.
+        </p>
+        <p>
+          Predators, including fish and other frogs, pose a threat to the
+          surivial of frog eggs. Many creatures eat frog eggs. Another threat is
+          the sun, as frog eggs die if they dry up. Frog eggs do not have a
+          protective outer shell like bird eggs.
+        </p>
+        <p>
+          The survival rate of frog eggs that reach full maturity is very low.
+          Female frogs lay between 2,000 and 10,000 eggs at one time, depending
+          on the species of frog and environment. Only about 5 of these eggs
+          will make it to full maturity in hopes of laying eggs themselves.
+        </p>
+      </div>
+      <div class="grid-frog-chart" style="display: grid">
+        <img
+          src="./frog-graphics/frog-kissing-right-graphic.png"
+          alt="frog kissing"
+          class="creature"
+        />
+        <img
+          src="./frog-graphics//frog-chart.png"
+          alt="a chart showing the population distribution of frogs by age"
+          style=""
+        />
+        <img
+          src="./frog-graphics/frog-kissing-left-graphic.png"
+          alt="frog kissing"
+          class="creature"
+        />
+      </div>
+      <a href="#card1" style="text-decoration: none"
+        ><p class="prompt">Click Here to Restart the Cycle</p></a
+      >
     </div>
-</body>
+  </body>
 </html>
