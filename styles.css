@@ -45,84 +45,84 @@
   overflow: hidden;
   background-position: center center;
   scroll-snap-align: start;
-  background-size: cover;
+  align-items: center;
 }
 
 /* Intro Slide */
 #card1 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Egg Phase Slide */
 #card2 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Tadpole Phase Slide */
 #card3 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/background-pond.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Tadpole with Legs Phase Slide */
 #card4 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/background-pond.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Froglet Phase Slide */
 #card5 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Frog Phase Slide */
 #card6 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/lilypad-background.png);
 }
 
 /* Conclusion Slide */
 #card7 {
   display: flex;
   flex-direction: column;
-  background-image: url(./frog-graphics/lilypad-background.png);
-  background-size: cover;
   text-align: center;
   justify-content: space-between;
   font-size: 1em;
+  background-size: cover;
+  background-image: url(./frog-graphics/background-pond.png);
 }
 
 /* Text Styling --------------------*/
@@ -164,6 +164,7 @@ h2 {
 html {
   cursor: url("./frog-graphics/fly-cursor-small.gif"), auto;
   scroll-behavior: smooth;
+  overflow-y: unset;
 }
 
 a {
@@ -201,12 +202,14 @@ nav {
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
+  top: 0;
 }
 
 .text-div {
   max-width: 90vw;
   margin: 1em;
   text-align: justify;
+  align-items: center;
 }
 
 .grid-frog-chart {
@@ -224,6 +227,10 @@ li {
   list-style-type: none;
   text-decoration: none;
   text-align: justify;
+}
+
+* {
+  overflow-y: hidden;
 }
 
 /* Styles for Modal and btn ------------*/
