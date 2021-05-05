@@ -302,8 +302,9 @@ button {
 
 .scene {
   padding-top: 100%;
-  background: black;
+  background: transparent;
   position: relative;
+  width: 338px;
 }
 
 .second {
@@ -318,7 +319,7 @@ button {
   right: 0;
   top: 0;
   margin: auto;
-  width: 60%;
+  width: 90%;
 }
 
 .first {
@@ -330,7 +331,7 @@ button {
   right: 0;
   top: 0;
   margin: auto;
-  width: 60%;
+  width: 90%;
   transition: opacity 1s;
 }
 
