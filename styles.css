@@ -1,6 +1,14 @@
 /* Adobe Fonts -----------------------*/
 @import url("https://use.typekit.net/zax1juw.css");
 
+* {
+  overflow-y: hidden;
+}
+
+/* html {
+  overflow-y: unset;
+} */
+
 .carlmarx {
   font-family: carlmarx, sans-serif;
   font-weight: 700;
@@ -24,7 +32,6 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  scroll-behavior: smooth;
   flex-direction: row;
   scroll-snap-type: x mandatory;
 }
@@ -37,7 +44,7 @@
   display: flex;
   overflow: hidden;
   background-position: center center;
-  scroll-snap-type: start;
+  scroll-snap-align: start;
   background-size: cover;
 }
 
@@ -48,7 +55,7 @@
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -59,7 +66,7 @@
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -70,7 +77,7 @@
   background-image: url(./frog-graphics/background-pond.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -81,7 +88,7 @@
   background-image: url(./frog-graphics/background-pond.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -92,7 +99,7 @@
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -103,7 +110,7 @@
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -114,7 +121,7 @@
   background-image: url(./frog-graphics/lilypad-background.png);
   background-size: cover;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 1em;
 }
 
@@ -156,6 +163,7 @@ h2 {
 /* Cursor Fly */
 html {
   cursor: url("./frog-graphics/fly-cursor-small.gif"), auto;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -196,7 +204,7 @@ nav {
 }
 
 .text-div {
-  width: 90vw;
+  max-width: 90vw;
   margin: 1em;
   text-align: justify;
 }
@@ -273,6 +281,10 @@ button {
 
 /* Desktop Styles --------------*/
 @media only screen and (min-width: 768px) {
+  .text-div {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
 }
 
 /* Image Phasing ----------*/
