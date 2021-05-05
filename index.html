@@ -14,6 +14,7 @@
     <script src="./java/sources-modal.js" defer></script>
   </head>
   <body class="scrolling-wrapper">
+    <!---Card 1-->
     <div class="card" id="card1">
       <nav>
         <a href="#card1" class="display:grid"
@@ -31,7 +32,7 @@
         <p class="prompt">Click to Begin the Cycle</p>
       </div>
     </div>
-
+ <!---Card 2-->
     <div class="card" id="card2">
       <nav>
         <a href="#card1" class="display:grid"
@@ -47,23 +48,17 @@
           in a jelly mass or cluster.
         </p>
       </div>
-      <div id="cf">
-        <a href="#card3"
-          ><img
-            src="./frog-graphics/eggs-graphic.png"
-            alt="frogs kissing"
-            class="creature bottom"
-        /></a>
-        <a href="#card3"
-          ><img
-            src="./frog-graphics/kissing-frog-duo.png"
-            alt="frog eggs"
-            class="creature top"
-        /></a>
+      <div class="scene-container">
+        <a href="#card3">
+            <div class="scene">
+            <img src="./frog-graphics/kissing-frog-duo.png" alt="two frogs kissing" class="second">
+            <img src="./frog-graphics/eggs-graphic.png" alt="eggs" class="first">
+            </div>
+        </a>
       </div>
       <p class="prompt">Hover to Grow, Click to Advance</p>
     </div>
-
+ <!---Card 3-->
     <div class="card" id="card3">
       <nav>
         <a href="#card1" class="display:grid"
@@ -81,15 +76,17 @@
           which for the next few days of life, consists entirely of algae.
         </p>
       </div>
-      <!--Problems :) -->
-      <div id="cf">
-        <img class="bottom" src="./frog-graphics/tadpole-graphic-light.png" />
-        <img class="top" src="./frog-graphics/eggs-graphic.png" />
+      <div class="scene-container">
+        <a href="#card4">
+        <div class="scene">
+          <img src="./frog-graphics/eggs-graphic.png" alt="frog eggs" class="second">
+          <img src="./frog-graphics/tadpole-graphic-light.png" alt="tadpole" class="first">
+        </div>
+          </a>
       </div>
-
       <a href="#card4"><p class="prompt">Hover to Grow, Click to Advance</p></a>
     </div>
-
+ <!---Card 4-->
     <div class="card" id="card4">
       <nav>
         <a href="#card1" class="display:grid"
@@ -108,15 +105,19 @@
           little more like a frog, it still has a very long tail!
         </p>
       </div>
-      <a href="#card5"
-        ><img
-          src="./frog-graphics/leggy-graphic-light.png"
-          alt="tadpole with legs"
-          class="creature"
-      /></a>
+      <div class="scene-container">
+        <a href="#card5">
+        <div class="scene">
+          <img src="./frog-graphics/tadpole-graphic-light.png" alt="tadpole" class="second">
+          <img src="./frog-graphics/leggy-graphic-light.png" alt="tadpole with legs" class="first">
+        </div>
+          </a>
+      </div>
+      <a href="#card4"><p class="prompt">Hover to Grow, Click to Advance</p></a>
+    </div>
       <p class="prompt">Hover to Grow, Click to Advance</p>
     </div>
-
+ <!---Card 5-->
     <div class="card" id="card5">
       <nav>
         <a href="#card1" class="display:grid"
@@ -135,15 +136,17 @@
           first time! The frog is still very small.
         </p>
       </div>
-      <a href="#card6"
-        ><img
-          src="./frog-graphics/stubby-graphic-one.png"
-          alt="froglet"
-          class="creature"
-      /></a>
-      <p class="prompt">Hover to Grow, Click to Advance</p>
+      <div class="scene-container">
+        <a href="#card6">
+        <div class="scene">
+          <img src="./frog-graphics/leggy-graphic-light.png" alt="tadpole with legs" class="second">
+          <img src="./frog-graphics/stubby-graphic-one.png" alt="froglet" class="first">
+        </div>
+          </a>
+      </div>
+      <a href="#card4"><p class="prompt">Hover to Grow, Click to Advance</p></a>
     </div>
-
+ <!---Card 6-->
     <div class="card" id="card6">
       <nav>
         <a href="#card1" class="display:grid"
@@ -159,15 +162,17 @@
           their eggs and more tadpoles hatch and begin the cycle again!
         </p>
       </div>
-      <a href="#card7"
-        ><img
-          src="./frog-graphics/frog-facing-right.png"
-          alt="frog"
-          class="creature"
-      /></a>
+      <div class="scene-container">
+        <a href="#card7">
+        <div class="scene">
+          <img src="./frog-graphics/stubby-graphic-one.png" alt="froglet" class="second">
+          <img src="./frog-graphics/frog-facing-right.png" alt="frog" class="first">
+        </div>
+          </a>
+      </div>
       <p class="prompt">Click to Advance</p>
     </div>
-
+    <!---Card 7-->
     <div class="card" id="card7">
       <nav>
         <a href="#card1" class="display:grid"
@@ -214,23 +219,11 @@
           will make it to full maturity in hopes of laying eggs themselves.
         </p>
       </div>
-      <div class="grid-frog-chart" style="display: grid">
-        <img
-          src="./frog-graphics/frog-kissing-right-graphic.png"
-          alt="frog kissing"
-          class="creature"
-        />
         <img
           src="./frog-graphics//frog-chart.png"
           alt="a chart showing the population distribution of frogs by age"
-          style=""
+          style="margin: auto; max-width: 80vw; display: block;"
         />
-        <img
-          src="./frog-graphics/frog-kissing-left-graphic.png"
-          alt="frog kissing"
-          class="creature"
-        />
-      </div>
       <a href="#card1" style="text-decoration: none"
         ><p class="prompt">Click Here to Restart the Cycle</p></a
       >
